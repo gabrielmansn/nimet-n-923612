@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kauneushoitola Lumia | Kauneushoitola Helsinki</title>
+  <meta name="description" content="Kauneushoitola Lumia tarjoaa laadukkaita kauneushoitoja Helsingissä. Varaa aikasi tänään ja koe luksushoito rentoutuneessa ilmapiirissä.">
+  <meta property="og:title" content="Kauneushoitola Lumia | Helsinki">
+  <meta property="og:description" content="Laadukkaita kauneushoitoja Helsingissä. Kasvo- ja vartalohoidot, ripset, kulmien muotoilu ja paljon muuta.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lumia.fi">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Kauneushoitola Lumia",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Esimerkkikatu 12",
+      "addressLocality": "Helsinki",
+      "addressCountry": "FI"
+    },
+    "telephone": "+358 40 123 4567",
+    "email": "info@lumia.fi",
+    "openingHours": ["Mo-Fr 09:00-18:00", "Sa 10:00-16:00"],
+    "url": "https://lumia.fi"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- NAVIGAATIO -->
+  <header class="site-header" role="banner">
+    <nav class="navbar" aria-label="Päänavigaatio">
+      <a href="#" class="logo" aria-label="Kauneushoitola Lumia – etusivu">
+        <span class="logo-text">Lumia</span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="#palvelut">Palvelut</a></li>
+        <li><a href="#hinnasto">Hinnasto</a></li>
+        <li><a href="#meista">Meistä</a></li>
+        <li><a href="#aukiolo">Aukioloajat</a></li>
+      </ul>
+      <a href="#yhteydenotto" class="btn btn-nav" aria-label="Siirry yhteydenottolomakkeeseen">Varaa aika</a>
+      <button class="hamburger" aria-label="Avaa navigaatio" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Mobiilivalikko" hidden>
+      <button class="mobile-close" aria-label="Sulje valikko">&times;</button>
+      <ul role="list">
+        <li><a href="#palvelut">Palvelut</a></li>
+        <li><a href="#hinnasto">Hinnasto</a></li>
+        <li><a href="#meista">Meistä</a></li>
+        <li><a href="#aukiolo">Aukioloajat</a></li>
+        <li><a href="#yhteydenotto" class="btn btn-mobile">Varaa aika</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" aria-label="Esittely">
+      <div class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+        </div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Kauneushoitola Helsingissä</p>
+        <h1 class="hero-title">Hehku syntyy<br><em>sisältäpäin</em></h1>
+        <p class="hero-subtitle">Kokeneet hoitajamme tarjoavat sinulle yksilöllisen kauneudenhoidon kokemuksen — rauhassa, lämmöllä ja ammattitaidolla.</p>
+        <div class="hero-cta">
+          <a href="#yhteydenotto" class="btn btn-primary">Varaa hoitoaika</a>
+          <a href="#palvelut" class="btn btn-ghost">Tutustu palveluihin</a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item">
+            <span class="trust-num">500+</span>
+            <span class="trust-label">Tyytyväistä asiakasta</span>
+          </div>
+          <div class="trust-divider" aria-hidden="true"></div>
+          <div class="trust-item">
+            <span class="trust-num">8+</span>
+            <span class="trust-label">Vuoden kokemus</span>
+          </div>
+          <div class="trust-divider" aria-hidden="true"></div>
+          <div class="trust-item">
+            <span class="trust-num">★ 4.9</span>
+            <span class="trust-label">Google-arvosana</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <span class="scroll-line"></span>
+        <span class="scroll-text">Vieritä alas</span>
+      </div>
+    </section>
+
+    <!-- PALVELUT -->
+    <section class="section palvelut" id="palvelut" aria-label="Palvelut">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Mitä tarjoamme</p>
+          <h2 class="section-title">Palvelumme</h2>
+          <p class="section-desc">Jokainen hoito on räätälöity sinulle — kuuntelemme tarpeitasi ja löydämme parhaan ratkaisun.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true">✦</div>
+            <h3>Kasvohoidot</h3>
+            <p>Syväpuhdistava, kosteuttava tai ikääntymisenvastainen hoito — valitaan yhdessä ihotyyppisi mukaan.</p>
+            <p class="service-duration">⏱ 60–90 min</p>
+          </article>
+          <article class="service-card featured" tabindex="0">
+            <div class="service-badge">Suosittu</div>
+            <div class="service-icon" aria-hidden="true">◈</div>
+            <h3>Vartalohoito</h3>
+            <p>Rentouttava tai kiinteyttävä vartalohoito, joka jättää ihon pehmeäksi ja hehkuvaksi.</p>
+            <p class="service-duration">⏱ 75–120 min</p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true">◇</div>
+            <h3>Ripset & Kulmien muotoilu</h3>
+            <p>Kestävä kulmien muotoilu ja ripsien kihartaminen tai pidennys. Katse kuntoon!</p>
+            <p class="service-duration">⏱ 45–90 min</p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true">❋</div>
+            <h3>Karvanpoisto</h3>
+            <p>Pehmeä vahaus tai sokeripasta — miellyttävä ja pitkäkestoinen tulos vartalolle ja kasvoille.</p>
+            <p class="service-duration">⏱ 30–60 min</p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true">✿</div>
+            <h3>Hieronta</h3>
+            <p>Rentouttava selkä-, kaula- tai koko kehon hieronta. Päästä irti jännityksistä.</p>
+            <p class="service-duration">⏱ 30–60 min</p>
+          </article>
+          <article class="service-card gift-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true">🎁</div>
+            <h3>Lahjakortti</h3>
+            <p>Anna läheisellesi hetki hemmottelua. Lahjakortit sopivat mihin tahansa palveluun.</p>
+            <a href="#yhteydenotto" class="btn btn-outline-small">Tilaa lahjakortti</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HINNASTO -->
+    <section class="section hinnasto" id="hinnasto" aria-label="Hinnasto">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Hinnat</p>
+          <h2 class="section-title">Selkeä hinnasto</h2>
+          <p class="section-desc">Ei piilomaksuja — kaikki hinnat sisältävät arvonlisäveron.</p>
+        </div>
+        <div class="pricing-grid">
+          <div class="pricing-block">
+            <h3 class="pricing-category">Kasvohoidot</h3>
+            <ul class="pricing-list" role="list">
+              <li><span>Peruskasvohoidot</span><span class="price">65 €</span></li>
+              <li><span>Premium kasvohoito</span><span class="price">95 €</span></li>
+              <li><span>Anti-aging hoito</span><span class="price">110 €</span></li>
+              <li><span>Microneulaus</span><span class="price">130 €</span></li>
+            </ul>
+          </div>
+          <div class="pricing-block">
+            <h3 class="pricing-category">Vartalohoito & Hieronta</h3>
+            <ul class="pricing-list" role="list">
+              <li><span>Selkähieronta 30 min</span><span class="price">45 €</span></li>
+              <li><span>Koko kehon hieronta 60 min</span><span class="price">75 €</span></li>
+              <li><span>Vartalohoito</span><span class="price">90 €</span></li>
+              <li><span>Rentouttava kylpypaketti</span><span class="price">120 €</span></li>
+            </ul>
+          </div>
+          <div class="pricing-block">
+            <h3 class="pricing-category">Ripset & Kulmien muotoilu</h3>
+            <ul class="pricing-list" role="list">
+              <li><span>Kulmien muotoilu</span><span class="price">25 €</span></li>
+              <li><span>Kulmien värjäys</span><span class="price">20 €</span></li>
+              <li><span>Ripsien kihartaminen</span><span class="price">55 €</span></li>
+              <li><span>Ripsien pidennys</span><span class="price">85 €</span></li>
+            </ul>
+          </div>
+          <div class="pricing-block">
+            <h3 class="pricing-category">Karvanpoisto</h3>
+            <ul class="pricing-list" role="list">
+              <li><span>Kasvot</span><span class="price">20–35 €</span></li>
+              <li><span>Kainalot</span><span class="price">25 €</span></li>
+              <li><span>Sääret</span><span class="price">45 €</span></li>
+              <li><span>Bikinilinja</span><span class="price">35–55 €</span></li>
+            </ul>
+          </div>
+        </div>
+        <p class="pricing-note">* Hinnat voivat vaihdella hoidon keston tai erityistoiveiden mukaan. Kysy tarkka tarjous!</p>
+      </div>
+    </section>
+
+    <!-- MEISTÄ -->
+    <section class="section meista" id="meista" aria-label="Meistä">
+      <div class="container">
+        <div class="meista-grid">
+          <div class="meista-visual" aria-hidden="true">
+            <div class="meista-img-wrap">
+              <div class="meista-img-placeholder">
+                <span class="placeholder-icon">✦</span>
+              </div>
+              <div class="meista-deco-box"></div>
+            </div>
+            <div class="meista-stats">
+              <div class="stat">
+                <span class="stat-num">2016</span>
+                <span class="stat-label">Perustettu</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">3</span>
+                <span class="stat-label">Asiantuntijaa</span>
+              </div>
+            </div>
+          </div>
+          <div class="meista-content">
+            <p class="section-eyebrow">Meistä</p>
+            <h2 class="section-title left">Intohimona kauneus ja hyvinvointi</h2>
+            <p>Kauneushoitola Lumia on helsinkiläinen hyvinvointioasi, joka tarjoaa laadukkaita kauneushoitoja ammattitaidolla ja sydämellä. Olemme toimineet vuodesta 2016 ja palvelleet satoja tyytyväisiä asiakkaita.</p>
+            <p>Tiimimme koostuu kouluttautuneista kosmetologeista, jotka päivittävät osaamistaan jatkuvasti. Käytämme vain laadukkaita, ihoa helliviä tuotteita, joista osa on kotimaisia.</p>
+            <ul class="meista-features" role="list">
+              <li><span class="check" aria-hidden="true">✓</span> Kouluttautuneet ammattilaiset</li>
+              <li><span class="check" aria-hidden="true">✓</span> Laadukkaat tuotteet, osa kotimaisia</li>
+              <li><span class="check" aria-hidden="true">✓</span> Yksilöllinen palvelu jokaiselle</li>
+              <li><span class="check" aria-hidden="true">✓</span> Rauhallinen ja viihtyisä tila</li>
+            </ul>
+            <a href="#yhteydenotto" class="btn btn-primary">Tule tutustumaan</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ASIAKASARVIOT -->
+    <section class="section arviot" aria-label="Asiakasarviot">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Asiakkaat sanovat</p>
+          <h2 class="section-title">Arvostelut</h2>
+        </div>
+        <div class="reviews-grid">
+          <blockquote class="review-card">
+            <div class="review-stars" aria-label="5 tähteä">★★★★★</div>
+            <p>"Upea palvelu! Ihoni tuntui täysin uudelta kasvohoitojen jälkeen. Lämpimästi suosittelen kaikille!"</p>
+            <footer><cite>— Minna K.</cite></footer>
+          </blockquote>
+          <blockquote class="review-card">
+            <div class="review-stars" aria-label="5 tähteä">★★★★★</div>
+            <p>"Rauhallinen ympäristö, ammattitaitoinen henkilökunta ja täydellinen lopputulos. Tulen varmasti uudelleen."</p>
+            <footer><cite>— Sari L.</cite></footer>
+          </blockquote>
+          <blockquote class="review-card">
+            <div class="review-stars" aria-label="5 tähteä">★★★★★</div>
+            <p>"Paras kauneushoitola Helsingissä! Ripset pysyvät kauniina viikkojen ajan ja palvelu on aina ystävällistä."</p>
+            <footer><cite>— Anni P.</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUKIOLOAJAT -->
+    <section class="section aukiolo" id="aukiolo" aria-label="Aukioloajat ja sijainti">
+      <div class="container">
+        <div class="aukiolo-grid">
+          <div class="aukiolo-block">
+            <p class="section-eyebrow">Milloin löydät meidät</p>
+            <h2 class="section-title left">Aukioloajat</h2>
+            <table class="hours-table" aria-label="Aukioloajat">
+              <tbody>
+                <tr><td>Maanantai–Perjantai</td><td>09:00–18:00</td></tr>
+                <tr><td>Lauantai</td><td>10:00–16:00</td></tr>
+                <tr><td>Sunnuntai</td><td>Suljettu</td></tr>
+              </tbody>
+            </table>
+            <div class="contact-details">
+              <div class="contact-item">
+                <span class="contact-icon" aria-hidden="true">📍</span>
+                <div>
+                  <strong>Osoite</strong>
+                  <p>Esimerkkikatu 12, 00100 Helsinki</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon" aria-hidden="true">📞</span>
+                <div>
+                  <strong>Puhelin</strong>
+                  <p><a href="tel:+358401234567">+358 40 123 4567</a></p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon" aria-hidden="true">✉️</span>
+                <div>
+                  <strong>Sähköposti</strong>
+                  <p><a href="mailto:info@lumia.fi">info@lumia.fi</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="map-block" aria-hidden="true">
+            <div class="map-placeholder">
+              <div class="map-pin"></div>
+              <p>Esimerkkikatu 12<br>Helsinki</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- YHTEYDENOTTOLOMAKE -->
+    <section class="section yhteydenotto" id="yhteydenotto" aria-label="Yhteydenotto ja ajanvaraus">
+      <div class="container">
+        <div class="contact-wrap">
+          <div class="contact-left">
+            <p class="section-eyebrow">Otetaan yhteyttä</p>
+            <h2 class="section-title left">Varaa aika tai kysy lisää</h2>
+            <p>Lähetä viesti ja olemme sinuun yhteydessä mahdollisimman pian — yleensä saman päivän aikana.</p>
+            <div class="contact-trust">
+              <div class="trust-badge"><span aria-hidden="true">🔒</span> Tietosi ovat turvassa</div>
+              <div class="trust-badge"><span aria-hidden="true">⚡</span> Vastaamme 24 h sisällä</div>
+            </div>
+            <div class="social-links">
+              <a href="https://instagram.com/lumiakauneushoitola" class="social-link" aria-label="Kauneushoitola Lumia Instagramissa" rel="noopener noreferrer" target="_blank">
+                <span aria-hidden="true">📸</span> Instagram
+              </a>
+              <a href="https://facebook.com/lumiakauneushoitola" class="social-link" aria-label="Kauneushoitola Lumia Facebookissa" rel="noopener noreferrer" target="_blank">
+                <span aria-hidden="true">👍</span> Facebook
+              </a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form class="contact-form" id="contactForm" novalidate aria-label="Yhteydenottolomake">
+              <div class="form-group">
+                <label for="name">Nimi <span aria-hidden="true">*</span></label>
+                <input type="text" id="name" name="name" autocomplete="name" placeholder="Etunimi Sukunimi" required aria-required="true">
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="phone">Puhelinnumero <span aria-hidden="true">*</span></label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+358 40 000 0000" required aria-required="true">
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Sähköposti</label>
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="sinun@email.fi">
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="service">Palvelu</label>
+                <select id="service" name="service">
+                  <option value="">Valitse palvelu…</option>
+                  <option value="kasvohoito">Kasvohoito</option>
+                  <option value="vartalohoito">Vartalohoito</option>
+                  <option value="ripset-kulmit">Ripset & Kulmien muotoilu</option>
+                  <option value="karvanpoisto">Karvanpoisto</option>
+                  <option value="hieronta">Hieronta</option>
+                  <option value="lahjakortti">Lahjakortti</option>
+                  <option value="muu">Muu / Kysy lisää</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Viesti tai toivottu aika</label>
+                <textarea id="message" name="message" rows="4" placeholder="Kirjoita toivomuksesi tai kysymyksesi…"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                <span class="btn-text">Lähetä viesti</span>
+                <span class="btn-loading" hidden aria-hidden="true">Lähetetään…</span>
+              </button>
+              <div class="form-success" role="alert" aria-live="polite" hidden>
+                <span aria-hidden="true">✓</span> Kiitos! Olemme sinuun yhteydessä pian.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p class="footer-logo">Lumia</p>
+          <p class="footer-tagline">Kauneus & Hyvinvointi Helsingissä</p>
+        </div>
+        <div class="footer-nav">
+          <h3>Sivut</h3>
+          <ul role="list">
+            <li><a href="#palvelut">Palvelut</a></li>
+            <li><a href="#hinnasto">Hinnasto</a></li>
+            <li><a href="#meista">Meistä</a></li>
+            <li><a href="#aukiolo">Aukioloajat</a></li>
+            <li><a href="#yhteydenotto">Yhteystiedot</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>Yhteystiedot</h3>
+          <p>Esimerkkikatu 12<br>00100 Helsinki</p>
+          <p><a href="tel:+358401234567">+358 40 123 4567</a></p>
+          <p><a href="mailto:info@lumia.fi">info@lumia.fi</a></p>
+        </div>
+        <div class="footer-social">
+          <h3>Seuraa meitä</h3>
+          <a href="https://instagram.com/lumiakauneushoitola" aria-label="Instagram" rel="noopener noreferrer" target="_blank">Instagram</a>
+          <a href="https://facebook.com/lumiakauneushoitola" aria-label="Facebook" rel="noopener noreferrer" target="_blank">Facebook</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Kauneushoitola Lumia. Kaikki oikeudet pidätetään.</p>
+        <p class="footer-credit">Sivuston toteutti <a href="https://nopeatsivut.fi" rel="noopener noreferrer" target="_blank">Nopeatsivut.fi</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#yhteydenotto" class="floating-cta" aria-label="Varaa aika">Varaa aika</a>
+
+  <script src="main.js"></script>
+</body>
+</html>
